@@ -1,0 +1,183 @@
+<!-- =========================================================
+STEP 1: Add the required HTML5 skeleton
+========================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minnesota Vikings</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <!-- =========================================================
+    STEP 2: Build the “top area” (site name + navigation) using simple HTML
+    ========================================================= -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <p class="brand"><strong>Purple People Eaters<span class="dot">.</span></strong></p>
+
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#identity">Team Identity</a>
+          <a href="#featured">Featured</a>
+          <a href="#more">More</a>
+          <a href="#cta">Join</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+    <!-- =========================================================
+    STEP 3: Hero section + “Get Started button” as a link
+    ========================================================= -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-content">
+        <h1 id="hero-title">Purple People Eaters</h1>
+        <p class="hero-subhead">The Minnesota Vikings</p>
+
+        <p>
+          <a class="btn btn-dark" href="#cta">Get Started</a>
+        </p>
+      </div>
+    </section>
+    
+    <!-- =========================================================
+    STEP 4: Features section (3 blocks) + featured content section
+    ========================================================= -->
+    <section class="features" id="identity" aria-labelledby="identity-title">
+      <div class="container">
+        <h2 class="section-title" id="identity-title">Team Identity</h2>
+
+        <div class="features-grid">
+          <div class="feature">
+            <h3>Norse History</h3>
+            <p>
+              The Vikings were founded in 1961 and have built a rich history of consistent elite
+              competition, legendary players, and passionate fans.
+            </p>
+          </div>
+
+          <div class="feature">
+            <h3>The Bank</h3>
+            <p>
+              The Vikings call U.S. Bank Stadium in Minneapolis, Minnesota home. It is one of the most
+              modern stadiums in the league.
+            </p>
+          </div>
+
+          <div class="feature">
+            <h3>Skol Nation</h3>
+            <p>
+              The Vikings have some of the most passionate fans in the NFL, known for their
+              intimidating Skol chant before each game, creating one of the most powerful atmospheres
+              in the league.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured" id="featured" aria-labelledby="featured-title">
+      <div class="container">
+        <h2 class="section-title" id="featured-title">The Face of the League</h2>
+        <p class="section-lede">
+          Vikings receiver Justin Jefferson, drafted in 2020, has quickly become one of the most
+          popular players in the league. Known for his elite route running, reliable hands, and
+          consistent positive attitude, his accomplishments include 2022 Offensive Player of the
+          Year, 2x First Team All-Pro, and 2x Second Team All-Pro. In 2024, he signed a 4-year
+          extension reported at $140 million, making him the highest-paid non-quarterback at the
+          time.
+        </p>
+
+        <div class="media">
+          <img
+            src="images/jefferson.jpg"
+            alt="Justin Jefferson making a catch during a Minnesota Vikings game"
+            width="900"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+    STEP 5: Two secondary content blocks + CTA section 
+    ========================================================= -->
+    <section class="secondary" id="more" aria-labelledby="more-title">
+      <div class="container">
+        <h2 class="section-title" id="more-title">More About the Vikings</h2>
+
+        <div class="secondary-grid">
+          <div class="card">
+            <div class="card-text">
+              <h3>Ownership</h3>
+              <p>
+                The Vikings consistently have one of the highest-ranked ownership groups in the league,
+                including ranking 2nd out of 32 in the 2025 NFLPA players poll.
+              </p>
+            </div>
+            <div class="card-image img-a"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-text">
+              <h3>Purple Legends</h3>
+              <p>
+                The Vikings have been home to some of the NFL’s greatest players, such as Randy Moss,
+                Fran Tarkenton, Paul Krause, Alan Page, and Adrian Peterson.
+              </p>
+
+  
+            </div>
+            <div class="card-image img-b"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="cta" aria-labelledby="cta-title">
+      <div class="container cta-inner">
+        <h2 class="section-title" id="cta-title">Ready to Join Skol Nation?</h2>
+        <p>
+          <a class="btn btn-dark" href="https://www.vikings.com/" target="_blank" rel="noopener noreferrer">
+            Explore the team
+          </a>
+        </p>
+      </div>
+    </section>
+
+    </main>
+
+    <!-- =========================================================
+    STEP 6: Footer 
+    ========================================================= -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <ul>
+            <li>
+              <a href="https://www.vikings.com/" target="_blank" rel="noopener noreferrer">
+                Official Minnesota Vikings Website
+              </a>
+            </li>
+            <li>
+              <a href="#hero-title">Back to top</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Links</h4>
+            <a href="#identity">Team Identity</a>
+            <a href="#featured">Featured</a>
+            <a href="#more">More</a>
+            <a href="#cta">Join</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
